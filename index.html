@@ -1,0 +1,62 @@
+<!doctype html>
+<html class="no-js" lang="ja">
+
+  <!DOCTYPE html>
+  <html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Practice</title>
+  </head>
+  <style>
+    body{
+      display: flex;
+      flex-flow: column;
+      align-items: center;
+    }
+    .box{
+      display: flex;
+      width: 800px;
+      height: 300px;
+      background-color: azure;
+      flex-flow: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .alert{
+      width: 500px;
+      height: 100px;
+      text-align: center;
+      line-height: 100px;
+    }
+    #button{
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+      background-color: skyblue;
+      cursor: pointer;
+      color: blue;
+      margin: 0 8px 8px 0;
+      text-align: center;
+      line-height: 100px;
+    }
+  </style>
+
+<body>
+  <div class="box">
+    <div id="js-question" class="alert" role="alert">
+      A simple primary alert—check it out!
+    </div>
+    <div class="d-flex justify-content-center">
+      <button id="button" type="button">Primary</button>
+      <button id="button" type="button">Primary</button>
+      <button id="button" type="button">Primary</button>
+      <button id="button" type="button">Primary</button>
+    </div>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+
+</html>
