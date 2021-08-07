@@ -54,7 +54,7 @@ setupQuiz();
 const clickHandler = (e) => {
   if(quiz[QuizIndex].correct === e.target.textContent){
     window.alert('正解！');
-    $button.style.color = '#EF93B6';
+    $button.style.background-color = '#EF93B6';
     score++;
   } else {
     window.alert('不正解！');
